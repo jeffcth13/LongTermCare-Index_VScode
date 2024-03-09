@@ -47,39 +47,41 @@
 
 /* 第一組內容的文字 */
 .protxt_padding {
-  padding: 30px 0 0 100px;
+  padding: 10px 0 0 100px;
 }
 
 ._professional {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   border-bottom: 1px solid navy;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 ._professional_intro {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .caretxt_padding {
-  padding: 30px 0 0 100px;
+  padding: 0px 0 0 100px;
 }
 
 ._care {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   border-bottom: 1px solid navy;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .care_intro {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 
@@ -125,14 +127,15 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   border-bottom: 1px solid navy;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .patience_intro {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .securetxt_padding {
@@ -143,14 +146,15 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   border-bottom: 1px solid navy;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .secure_intro {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 
@@ -188,14 +192,15 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   border-bottom: 1px solid navy;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .efficiency_intro {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .commutxt_padding {
@@ -206,14 +211,15 @@
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
   border-bottom: 1px solid navy;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .communication_intro {
   color: navy;
   font-family: "Noto Sans TC", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 /* 第三組內容的圖片 */
 .img_blood {
@@ -403,7 +409,7 @@ figure._symptom {
   text-align: left;
   color: #ffffff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  font-size: 16px;
+  font-size: 18px;
 }
 figure._symptom * {
   -webkit-box-sizing: border-box;
@@ -474,6 +480,11 @@ figure._symptom.hover img {
   ._pdr {
     padding-right: 3rem;
   }
+
+  /* 第二組內容區塊 */
+  .second_txt_container {
+    margin-top: 3rem;
+  }
 }
 
 /* 互動圖文卡的RWD設置 */
@@ -497,6 +508,9 @@ figure._symptom.hover img {
   }
 
   /* 第二區塊「專業派遣服務」RWD */
+  .second_title_mg {
+    margin-top: 6rem;
+  }
   .second_title_container {
     justify-content: start;
   }
@@ -510,6 +524,10 @@ figure._symptom.hover img {
   
 
   /* 第三區塊「與馨安的有效溝通 */
+  .third_title_mg {
+    margin-top: 8rem;
+  }
+  
   .effitxt_padding {
     padding: 30px 0 0 0;
   }
