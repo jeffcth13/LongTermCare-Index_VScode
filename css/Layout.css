@@ -85,9 +85,15 @@ footer {
     bottom: 0;
 }
 
+.footer_title {
+    font-weight: bold;
+    color: #666666;
+}
+
 /* 頁尾li字體 */
 ._fontcolor {
     color: #DDABA0;
+    font-size: 18px;
 }
 
 ._fontcolor:hover {
@@ -98,6 +104,7 @@ footer {
 .service_time, .org_intro {
     color: #b3b3b3;
     font-weight: 300;
+    text-align: center;
 }
 
 /* 手機瀏覽模式的BUTTON */
