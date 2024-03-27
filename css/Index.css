@@ -19,16 +19,16 @@
 
 .first_title_container {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .first_title_font::before {
   content: "";
   display: inline-block;
-  width: 100px; 
+  width: 100px;
   height: 3px;
   background-color: #DDABA0;
-  margin-right: 30px; 
+  margin-right: 30px;
   margin-bottom: 11px;
 }
 
@@ -42,7 +42,8 @@
 /* 第一組內容的圖片 */
 .img_feed {
   border-radius: 50px;
-  box-shadow: 3px 3px 12px gray;padding:3px;
+  box-shadow: 3px 3px 12px gray;
+  padding: 3px;
 }
 
 /* 第一組內容的文字 */
@@ -93,17 +94,17 @@
 
 .second_title_container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: end;
 }
 
 .second_title_font::before {
   content: "";
   display: inline-block;
-  width: 100px; 
+  width: 100px;
   height: 3px;
   background-color: #DDABA0;
-  margin-right: 30px; 
+  margin-right: 30px;
   margin-bottom: 11px;
 }
 
@@ -115,7 +116,8 @@
 /* 第二組內容的圖片 */
 .img_help {
   border-radius: 50px;
-  box-shadow: 3px 3px 12px gray;padding:3px;
+  box-shadow: 3px 3px 12px gray;
+  padding: 3px;
 }
 
 /* 第二組內容的文字 */
@@ -167,15 +169,16 @@
 .third_title_container {
   display: flex;
   align-items: center;
-} 
+}
 
 .third_title_font::before {
   content: "";
   display: inline-block;
-  width: 100px; 
+  width: 100px;
   height: 3px;
   background-color: #DDABA0;
-  margin-right: 30px; /* 距離標題的間距 */
+  margin-right: 30px;
+  /* 距離標題的間距 */
   margin-bottom: 11px;
 }
 
@@ -221,10 +224,12 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
+
 /* 第三組內容的圖片 */
 .img_blood {
   border-radius: 50px;
-  box-shadow: 3px 3px 12px gray;padding:3px;
+  box-shadow: 3px 3px 12px gray;
+  padding: 3px;
 }
 
 
@@ -232,7 +237,7 @@
 /* 第四組內容區塊標題 「暖心見證」 */
 .fourth_title_container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   margin-top: 13rem;
 }
@@ -240,10 +245,10 @@
 .fourth_title_font::before {
   content: "";
   display: inline-block;
-  width: 200px; 
+  width: 200px;
   height: 3px;
   background-color: #DDABA0;
-  margin-right: 30px; 
+  margin-right: 30px;
   margin-bottom: 11px;
 }
 
@@ -253,7 +258,7 @@
   width: 200px;
   height: 3px;
   background-color: #DDABA0;
-  margin-left: 30px; 
+  margin-left: 30px;
   margin-bottom: 11px;
 }
 
@@ -264,7 +269,7 @@
 
 
 /* 圖文互動的容器區塊 */
-.sweet_heart{
+.sweet_heart {
   margin-top: 4rem;
   justify-content: center;
 }
@@ -287,7 +292,7 @@
   transition: 0.5s;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  box-shadow: 3px 3px 12px gray; 
+  box-shadow: 3px 3px 12px gray;
 }
 
 /* 互動圖文卡hover效果 Y軸上移*/
@@ -295,7 +300,7 @@
   transform: translateY(-50px);
 }
 
-/* 互動圖文卡hover偽元素效果 */ 
+/* 互動圖文卡hover偽元素效果 */
 ._wrap ._item:hover .txt_area::before {
   border-left: 185px solid #feb85d;
   border-right: 185px solid #feb85d;
@@ -303,8 +308,8 @@
 
 ._wrap ._item:hover .txt_area {
   background-image: linear-gradient(0deg, #fb8076, #feb85d);
-  border-bottom-left-radius: 50px; 
-  border-bottom-right-radius: 50px; 
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 ._wrap ._item:hover h2 {
@@ -341,6 +346,7 @@
   border-right: 185px solid #fcfcfc;
   transform: translateY(-100%);
 }
+
 ._wrap ._item .txt_area h2 {
   border-bottom: 1px solid #888;
   padding-bottom: 0.3em;
@@ -348,6 +354,7 @@
   font-weight: 700;
   transition: 0.25s;
 }
+
 ._wrap ._item .txt_area p {
   line-height: 1.5;
   text-align: justify;
@@ -360,7 +367,7 @@
 /* 第五區塊內容的標題 */
 .fifth_title_container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   margin-top: 13rem;
 }
@@ -368,10 +375,10 @@
 .fifth_title_font::before {
   content: "";
   display: inline-block;
-  width: 200px; 
+  width: 200px;
   height: 3px;
   background-color: #DDABA0;
-  margin-right: 30px; 
+  margin-right: 30px;
   margin-bottom: 11px;
 }
 
@@ -381,7 +388,7 @@
   width: 200px;
   height: 3px;
   background-color: #DDABA0;
-  margin-left: 30px; 
+  margin-left: 30px;
   margin-bottom: 11px;
 }
 
@@ -411,29 +418,34 @@ figure._symptom {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   font-size: 18px;
 }
+
 figure._symptom * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
+
 figure._symptom img {
   max-width: 100%;
   vertical-align: top;
   position: relative;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
 }
+
 figure._symptom img:first-of-type {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.25;
 }
+
 figure._symptom img:nth-of-type(2) {
   position: absolute;
   bottom: 100%;
   left: 0;
   z-index: 1;
 }
+
 figure._symptom figcaption {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -442,21 +454,26 @@ figure._symptom figcaption {
   width: 100%;
   padding: 15px 20px;
 }
+
 figure._symptom figcaption h3,
 figure._symptom figcaption p {
   margin: 0 0 5px;
 }
+
 figure._symptom figcaption h3 {
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
+
 figure._symptom figcaption h3 span {
   font-weight: 400;
 }
+
 figure._symptom figcaption p {
   opacity: 0.8;
 }
+
 figure._symptom a {
   left: 0;
   right: 0;
@@ -465,6 +482,7 @@ figure._symptom a {
   position: absolute;
   z-index: 2;
 }
+
 figure._symptom:hover img,
 figure._symptom.hover img {
   -webkit-transform: translateY(100%);
@@ -473,10 +491,12 @@ figure._symptom.hover img {
 
 /* ----------------- RWD ----------------- */
 @media (min-width:900px) {
+
   /* 寬度大於900時，圖往內縮3rem */
   ._pdl {
     padding-left: 3rem;
   }
+
   ._pdr {
     padding-right: 3rem;
   }
@@ -496,13 +516,16 @@ figure._symptom.hover img {
 }
 
 @media (max-width:767px) {
+
   /* 第一區塊「找馨安，最安心」RWD */
   .first_title_mg {
     margin-top: 2rem;
   }
+
   .protxt_padding {
     padding: 30px 0 0 0;
   }
+
   .caretxt_padding {
     padding: 30px 0 0 0;
   }
@@ -511,26 +534,30 @@ figure._symptom.hover img {
   .second_title_mg {
     margin-top: 6rem;
   }
+
   .second_title_container {
     justify-content: start;
   }
+
   .patiencetxt_padding {
     padding: 30px 0 0 0;
   }
+
   .securetxt_padding {
     padding: 30px 0 0 0;
   }
 
-  
+
 
   /* 第三區塊「與馨安的有效溝通 */
   .third_title_mg {
     margin-top: 8rem;
   }
-  
+
   .effitxt_padding {
     padding: 30px 0 0 0;
   }
+
   .commutxt_padding {
     padding: 30px 0 0 0;
   }
@@ -544,23 +571,24 @@ figure._symptom.hover img {
     justify-content: center;
     margin-top: 8rem;
   }
+
   .fourth_title_font::before {
     content: "";
     display: inline-block;
-    width: 100px; 
+    width: 100px;
     height: 3px;
     background-color: #DDABA0;
-    margin-right: 30px; 
+    margin-right: 30px;
     margin-bottom: 11px;
   }
-  
+
   .fourth_title_font::after {
     content: "";
     display: inline-block;
     width: 100px;
     height: 3px;
     background-color: #DDABA0;
-    margin-left: 30px; 
+    margin-left: 30px;
     margin-bottom: 11px;
   }
 
@@ -571,23 +599,24 @@ figure._symptom.hover img {
     justify-content: center;
     margin-top: 8rem;
   }
+
   .fifth_title_font::before {
     content: "";
     display: inline-block;
-    width: 75px; 
+    width: 75px;
     height: 3px;
     background-color: #DDABA0;
-    margin-right: 10px; 
+    margin-right: 10px;
     margin-bottom: 11px;
   }
-  
+
   .fifth_title_font::after {
     content: "";
     display: inline-block;
     width: 75px;
     height: 3px;
     background-color: #DDABA0;
-    margin-left: 10px; 
+    margin-left: 10px;
     margin-bottom: 11px;
   }
 }
@@ -595,9 +624,36 @@ figure._symptom.hover img {
 
 
 
+.row_robot {
+  display: none;
+  position: fixed;
+  bottom: 120px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
 
+/* Robot */
+.open_button {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 60px;
+  right: 30px;
+  border: none #dddddd;
+  border-radius: 50%;
+  color: #555;
+  background-color: transparent;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  i {
+    font-size: 22px;
+  }
+}
 
-
-
-
-
+.open_button:hover {
+  border: 1.5px solid steelblue;
+  background-color: steelblue;
+}

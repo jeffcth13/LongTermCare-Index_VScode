@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/Layout.css">
     <link rel="stylesheet" href="css/Index.css">
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
     <title>馨安居家照護 | 安心 | 專業 | 老人長期照顧服務</title>
 </head>
 
@@ -311,37 +312,50 @@
         <div class="container symptom_mg">
             <div class="row">
                 <div class="col-lg-4">
-                    <figure class="figure _symptom _green "><img src="images/medicine/紅麴膠囊_0.jpg" alt="紅麴膠囊"/><img src="images/medicine/紅麴膠囊_0.jpg" alt="紅麴膠囊"/>
+                    <figure class="figure _symptom _green "><img src="images/medicine/紅麴膠囊_0.jpg" alt="紅麴膠囊" /><img
+                            src="images/medicine/紅麴膠囊_0.jpg" alt="紅麴膠囊" />
                         <figcaption>
-                          <h3>商品：紅麴膠囊<br><span> 「你是否擔心血脂偏高，想要改善心血管健康？」</span></h3>
-                          <p>利用固液態發酵技術提高活性，這款純素可食補充劑，有助降低血中總膽固醇，讓你的心血管健康無憂！</p>
+                            <h3>商品：紅麴膠囊<br><span> 「你是否擔心血脂偏高，想要改善心血管健康？」</span></h3>
+                            <p>利用固液態發酵技術提高活性，這款純素可食補充劑，有助降低血中總膽固醇，讓你的心血管健康無憂！</p>
                         </figcaption><a href="#"></a>
-                      </figure>
+                    </figure>
                 </div>
 
                 <div class="col-lg-4">
-                    <figure class="figure _symptom _green "><img src="images/medicine/UC-ll_0.jpg" alt="UC-ll"/><img src="images/medicine/UC-ll_0.jpg" alt="UC-ll"/>
+                    <figure class="figure _symptom _green "><img src="images/medicine/UC-ll_0.jpg" alt="UC-ll" /><img
+                            src="images/medicine/UC-ll_0.jpg" alt="UC-ll" />
                         <figcaption>
-                          <h3>商品：UC-ll+玻尿酸鈉<br><span> 「你是否渴望保持靈活行動力，享受生活？」</span></h3>
-                          <p>專為銀髮長者設計，含足量玻尿酸納和UC-II，完整保留膠原蛋白活性，有助於關節靈活度，讓你活力充沛，享受每一天！</p>
+                            <h3>商品：UC-ll+玻尿酸鈉<br><span> 「你是否渴望保持靈活行動力，享受生活？」</span></h3>
+                            <p>專為銀髮長者設計，含足量玻尿酸納和UC-II，完整保留膠原蛋白活性，有助於關節靈活度，讓你活力充沛，享受每一天！</p>
                         </figcaption><a href="#"></a>
-                      </figure>
+                    </figure>
                 </div>
 
                 <div class="col-lg-4">
-                    <figure class="figure _symptom _green "><img src="images/medicine/超級葉酸_0.jpg" alt="超級葉酸"/><img src="images/medicine/超級葉酸_0.jpg" alt="超級葉酸"/>
+                    <figure class="figure _symptom _green "><img src="images/medicine/超級葉酸_0.jpg" alt="超級葉酸" /><img
+                            src="images/medicine/超級葉酸_0.jpg" alt="超級葉酸" />
                         <figcaption>
-                          <h3>商品：超級葉酸+鐵植物膠囊<br><span> 「你是否感到精神不佳，缺乏活力？」</span></h3>
-                          <p>專利活性超級葉酸，利用率高10倍，配合專利甘胺酸亞鐵，有助紅血球形成，適合銀髮族專用，讓你重拾活力，擁有健康生活！</p>
+                            <h3>商品：超級葉酸+鐵植物膠囊<br><span> 「你是否感到精神不佳，缺乏活力？」</span></h3>
+                            <p>專利活性超級葉酸，利用率高10倍，配合專利甘胺酸亞鐵，有助紅血球形成，適合銀髮族專用，讓你重拾活力，擁有健康生活！</p>
                         </figcaption><a href="#"></a>
-                      </figure>
+                    </figure>
                 </div>
             </div>
         </div>
 
+        <!-- <div class="container mt-5">
+            <div class="row robot">
+                <div class="col-4 row_robot" id="webchat" role="main">
+                    
+                </div>
+            </div>
+        </div> -->
 
 
 
+        <!-- Robot -->
+        <div class="row_robot" id="webchat" role="main"></div>
+        <button class="open_button" onclick="openBot()"><i class="fa-solid fa-robot"></i></button>
 
 
 
@@ -491,6 +505,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/Layout.js"></script>
+    <script src="js/robot.js"></script>
 </body>
 
 </html>
